@@ -15,7 +15,7 @@ body{
     width: 700px;
     height: 450px;
     align-self: center;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 .row{
 
@@ -50,6 +50,7 @@ body{
 }
 .score{
     font-size: xx-large;
+    font-weight: bold;
     align-content: center;
 
 }
@@ -66,7 +67,7 @@ body{
     font-size: x-large;
     color: cornsilk;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 20px;
     outline: none;
@@ -75,7 +76,7 @@ body{
 }
 #strikebutton{
     background: linear-gradient(135deg, #c02425, #f0cb35);
-    width: 300px;
+    width: 350px;
     height: 50px;
     font-size: x-large;
     color: cornsilk;
@@ -91,11 +92,20 @@ body{
     font-size: xx-large;
     color: rgba(240, 11, 99, 0.993); 
     text-align: center;
-    margin-top: 50px;
-    border: 3px solid blueviolet;
+    margin-top: 5px;
+    border: none;
+    outline: none;
     border-radius: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
 
 
+}
+
+.round{
+    width : 25px;
+	height : 25px;
+	border: 1px solid #000;
+	display: inline-block;
+	border-radius: 50%;
 }

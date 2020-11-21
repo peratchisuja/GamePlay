@@ -16,12 +16,13 @@
                <p class="name" id="team1name"> Real Madrid</p>
                <div class="row runs" id="team1runs">
                    
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
+                   <div class="round" id="roundindex"></div>
+                   <div class="round" id="roundindex"></div>
+                   <div class="round" id="roundindex"></div>
+                   <div class="round" id="roundindex"></div>
+                   <div class="round" id="roundindex"></div>
+                   <div class="round" id="roundindex"></div>
+                   
                </div>
            </div>
            <div class="col">
@@ -36,21 +37,21 @@
                <img src="assests/Huesca.png" id="pic" alt="Huesca" width="150px" height="150px">
                <p class="name" id="team2name">Huesca</p>
                <div class="row runs" id="team2runs">
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
-                   <div>-</div>
+                <div class="round" id="roundindex"></div>
+                <div class="round" id="roundindex"></div>
+                <div class="round" id="roundindex"></div>
+                <div class="round" id="roundindex"></div>
+                <div class="round" id="roundindex"></div>
+                <div class="round" id="roundindex"></div>
                </div>
           </div>
          </div>
          <div class="row">
-             <button class="btn" id="tryagainbutton" onclick="tryagain()">Try Again</button>
+             <button class="btn" id="tryagainbutton" onclick="history.go(0)">Try Again</button>
              <button class="btn" id="strikebutton" onclick="handlestrike()">Strike</button>
          </div>
-         <div id="result"></div>
+         <div class="row" id="result" hidden></div>
      </div>
-     <script src="jscript.js"></script>
+     <script src="jscripts.js"></script>
 </body>
 </html>
