@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Play</title>
+    <link rel="stylesheet" href="styles.css">
+  
+ 
+</head>
+<body>
+     <div class="container">
+         <div class="row">
+           <div class="col">
+               <img src="assests/RealMadrid.png" id="pic" alt="Real Madrid" width="150px" height="150px" >
+               <p class="name" id="team1name"> Real Madrid</p>
+               <div class="row runs" id="team1runs">
+                   
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+               </div>
+           </div>
+           <div class="col">
+               <div class="row score">
+                   <div id="team1score">0</div>
+                   <div>-</div>
+                   <div id="team2score">0</div>
+               </div>
+           </div>
+         
+           <div class="col">
+               <img src="assests/Huesca.png" id="pic" alt="Huesca" width="150px" height="150px">
+               <p class="name" id="team2name">Huesca</p>
+               <div class="row runs" id="team2runs">
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+                   <div>-</div>
+               </div>
+          </div>
+         </div>
+         <div class="row">
+             <button class="btn" id="tryagainbutton" onclick="tryagain()">Try Again</button>
+             <button class="btn" id="strikebutton" onclick="handlestrike()">Strike</button>
+         </div>
+         <div id="result"></div>
+     </div>
+     <script src="jscript.js"></script>
+</body>
+</html>
